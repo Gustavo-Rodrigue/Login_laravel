@@ -1,0 +1,105 @@
+/* ======== ESTILO GLOBAL ======== */
+body {
+    background-color: #693178; /* Fundo roxo */
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo pequena no canto */
+.logo {
+    max-width: 80px;
+}
+
+/* ======== TÍTULO ======== */
+.titulo {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 10px;
+    margin-bottom: -120px;
+    color: white;
+}
+
+.login {
+    margin-top: -60px;
+    margin-bottom: -80px;
+}
+
+.cadastro{
+    margin-top: -100px;
+    margin-bottom: 20px;
+}
+
+/* ======== BOTÕES ======== */
+.btn-custom {
+    min-width: 200px;
+    min-height: 60px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+}
+
+/* Botão Entrar */
+.btn-entrar {
+    background-color: #9b4d96;
+    color: white;
+}
+.btn-entrar:hover {
+    background-color: #843e7e;
+}
+
+/* Botão Cadastrar */
+.btn-cadastrar {
+    background-color: #9b4d96;
+    color: white;
+}
+.btn-cadastrar:hover {
+    background-color: #843e7e;
+}
+
+/* ======== FORMULÁRIO DE LOGIN ======== */
+.login-form {
+    background: rgba(255, 255, 255, 0.05); /* leve contraste sobre fundo */
+    border-radius: 12px;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Inputs do formulário */
+.form-control {
+    border-radius: 8px;
+    border: 2px solid transparent;
+    padding: 12px;
+    font-size: 1rem;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #9b4d96; /* roxo */
+    box-shadow: 0 0 5px rgba(155, 77, 150, 0.5);
+}
+
+/* Labels */
+.form-label {
+    font-weight: bold;
+    color: #f5f5f5;
+}
+
+/* ======== LINKS ======== */
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
