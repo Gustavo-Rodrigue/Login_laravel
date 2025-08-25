@@ -79,7 +79,7 @@ php artisan key:generate
 6. Execute as migrations para criar as tabelas:
 
 ````
-Execute as migrations para criar as tabelas:
+php artisan migrate
 ````
 
 7. Inicie o servidor:
